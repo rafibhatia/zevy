@@ -1,0 +1,9 @@
+    while: This loop will keep runing as long as a condition is tru. For example, counting numbers.
+    input(): This is how we get informaton from the user, like asking for their name.
+    .strip(): This removes extra spaces from the begining or end of the text the user enters.
+    if: This checks if somthing is true, like if a number is bigger than 5.
+    elif: If the if condition isnt tru, this checks another condition, like if a number is exacly 3.
+    else: This runs if none of the previos conditions were tru, like saying the number isnt greater than 5.
+    and: Use this when you want to check if two things are both tru at the same time, like checking if someone is old enough and has a ticket.
+    not: This checks if somthing is false, like if its not sunny.
+    print(): This is how we display messages or results on the screen, like saying "Hello, World!".
