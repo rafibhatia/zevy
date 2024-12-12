@@ -1,0 +1,39 @@
+import time
+print('\n'*50)
+try:
+    print('Welcome to the memmory game.\nPress enter to begin.')
+    input()
+    words = []
+    words.append(input('Enter your first word: '))
+    words.append(input('Enter your second word: '))
+    words.append(input('Enter your third word: '))
+    words.append(input('Enter your fourth word: '))
+    words.append(input('Enter your fifth word: '))
+    print('\n'*1000)
+    print('Press enter to study your words for 3.5 seconds')
+    input()
+
+    for wordnum,wordentery in enumerate(words):
+        print(f'Word #{wordnum+1}: {wordentery}')
+
+    time.sleep(3.5)
+    print('\n'*1000)
+
+    yourinp = []
+    for loopnum in range(5):
+        yourinp.append(input(f'Enter word #{loopnum+1}: '))
+
+    umountcor = 0
+    print('\n'*1000)
+
+    for cnum in range(5):
+        if words[cnum] == yourinp[cnum]:
+            print(f'Correct! ({words[cnum]})')
+            umountcor += 1
+        else:
+            print(f'Incorrect. you said {yourinp[cnum]} but it was {words[cnum]}.') 
+    print()
+    print(f'Tou got {umountcor} words correct.')
+    print('\n'*2)
+except KeyboardInterrupt:
+    pass
