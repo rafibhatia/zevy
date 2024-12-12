@@ -1,0 +1,32 @@
+Bouncing Asterisks Program - Your Roadmap
+Objective
+
+Create a fun program where a line of stars (********) bounces left and right on the screen.
+What You’ll Learn
+
+    Variables: How to control the position of the stars.
+    Loops: Make the stars move continuously.
+    Conditions: Change the direction of the bounce.
+    Timing: Slow down the animation to make it smooth.
+    Exiting the Program: Safely stop the program when you're done.
+
+Your Steps
+
+    Start Small:
+        Write a simple program that prints ******** with some spaces before it.
+        Example: ********
+        Use a variable to control the number of spaces.
+
+    Add Movement:
+        Use a loop to change the number of spaces.
+        Make the stars move to the right by increasing the spaces each time the loop runs.
+
+    Bounce Back:
+        Add a rule to stop the stars from going off the edge.
+        Make them move back to the left when they reach the edge.
+
+    Smooth It Out:
+        Add a little delay after each movement using a function that pauses the program for a moment.
+
+    Exit Safely:
+        Add a way to stop the program without breaking it. (Hint: Think about how programs handle interruptions like pressing keys.)
