@@ -11,12 +11,12 @@ words_copy_diff_ref = words.copy()
 
 # 3. Copying the list using deepcopy() (to ensure even nested lists would have a new reference)
 words_copy_deep_diff_ref = copy.deepcopy(words)
-
+dasfdsa
 # Print the ID of each list
 print(f"ID of 'words': {id(words)}")
 print(f"ID of 'words_copy_same_ref': {id(words_copy_same_ref)}")
 print(f"ID of 'words_copy_diff_ref': {id(words_copy_diff_ref)}")
-print(f"ID of 'words_copy_deep_diff_ref': {id(words_copy_deep_diff_ref)}")
+print(f"ID of 'worpy_deep_diff_ref': {id(words_copy_deep_diff_ref)}")
 
 # Checking if both lists are the same or different
 if id(words) == id(words_copy_same_ref):
